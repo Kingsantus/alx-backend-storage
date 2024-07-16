@@ -1,0 +1,6 @@
+// Update all matching documents by adding a new field
+
+db.school.updateMany(
+  {name: "Holberton school"},
+  {$set: {"address": "972 Mission street"}}
+)
